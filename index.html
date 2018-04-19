@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/stylesheets/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
     <script src="main.js"></script>
 </head>
@@ -14,62 +15,91 @@
     <header>
         <div class="jumbotron jumbotron-fluid">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-6 jumbo-text intro">
-                                <h1>A Tribute Page to Pulp</h1>
-                                <p id="intro-text">This is some texts. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan elit ante, quis congue lacus viverra sed. Morbi tempus malesuada eleifend. Maecenas venenatis feugiat dui, vel consectetur massa convallis eget. Quisque id venenatis massa, ac faucibus leo. Integer eget augue finibus, sodales libero et, bibendum purus.</p>
+                    <div class="row" id="top-row">
+                        <div class="col-xl-6 col-l-8 col-md-8 col-sm-10 col-xs-8 jumbo-text intro">
+                                <p id="tribute"><strong>A TRIBUTE TO</strong></p>
+                                <img src="assets/images/logo-white.png" alt="logo" id="logo" class="img-fluid">
+                                <p id="intro-text">This is some texts. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis congue lacus viverra sed.</p>
                         </div>
                     </div>
                 </div>
         </div>
     </header>
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-md-8 biography">
-                <h2>Here's a timeline of the band:</h2>
-                    <ul>
-                        <li><strong>1978</strong> - Arabicus formed.<br>Line-up:
+
+    <div class="row" id="timeline">
+        <div class="col-xl-6 col-lg-6 col-md-8 col-sm-8 biography">
+            <h1>Here's a timeline of the band:</h1>
+                <ul>
+                    <li><strong>1978</strong> - Arabicus formed.<br>Line-up:
+                        <ul>
+                            <li>Jarvis Cocker (vocals, guitar)</li>
+                            <li>Peter Dalton (guitar, organ)</li>
+                            <li>Ian Dalton (coal scuttle)</li>
+                        </ul>
+                    </li>
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                    <li>Placeholder</li>
+                    <li><strong>2002</strong>
                             <ul>
-                                <li>Jarvis Cocker (vocals, guitar)</li>
-                                <li>Peter Dalton (guitar, organ)</li>
-                                <li>Ian Dalton (coal scuttle)</li>
+                                <li>June - It is announced that the band will leave Island Records following the release of a 'Best Of' compilation at the end of the year.</li>
+                                <li>December - The band goes on an extended hiatus. The future of Pulp is uncertain.</li>
                             </ul>
-                        </li>
-                        <li>Placeholder</li>
-                        <li>Placeholder</li>
-                        <li>Placeholder</li>
-                        <li>Placeholder</li>
-                        <li>Placeholder</li>
-                        <li>Placeholder</li>
-                        <li>Placeholder</li>
-                        <li>Placeholder</li>
-                        <li>Placeholder</li>
-                        <li>Placeholder</li>
-                        <li>Placeholder</li>
-                        <li><strong>2002</strong>
-                                <ul>
-                                    <li>June - It is announced that the band will leave Island Records following the release of a 'Best Of' compilation at the end of the year.</li>
-                                    <li>December - The band goes on an extended hiatus. The future of Pulp is uncertain.</li>
-                                </ul>
-                        </li>
-                                
-                                
-                    </ul>
-                <blockquote class="blockquote">
-                    <p>A song can't be completely serious if you rhyme melodic with alcoholic.</p>
-                    <cite>Jarvis Cocker</cite>
-                </blockquote>
+                    </li>
+                            
+                            
+                </ul>
+        </div>
+    </div>
+
+    <div class="row" id="quote-bg">
+        <div class="col-xl-6 col-lg-6 col-md-8 biography" id="quote">
+
+<!-- Hidden by default -->
+
+            <div class="row default-hidden">
+                    <div class="center-block">
+                        <img src="assets/images/jarvis_cocker.jpg" alt="Photo of Jarvis Cocker" id="jarvis2">
+                    </div>
+            </div>
+            <div class="row default-hidden">
+                <div class="center-block">
+                    <blockquote class="blockquote2">
+                            <p>A song can't be completely serious if you rhyme melodic with alcoholic.</p>
+                            <cite>Jarvis Cocker</cite>
+                    </blockquote>
+                </div>
+            </div>
+
+<!-- Shown by default -->
+
+            <div class="row">
+                <div class="col-8">
+                    <blockquote class="blockquote">
+                            <p>A song can't be completely serious if you rhyme melodic with alcoholic.</p>
+                            <cite>Jarvis Cocker</cite>
+                    </blockquote>
+                </div>
+                <div class="col-4">
+                    <img src="assets/images/jarvis_cocker.jpg" alt="Photo of Jarvis Cocker" id="jarvis1">
+                </div>
             </div>
         </div>
-    </section>
-
-    <footer></footer>
+    </div>
+    <footer class="row">
+            <div class="col-xl-6 col-lg-6 col-md-8 biography footer">
+                <p class="footer">For more information, please visit: <a href="https://www.pulpwiki.net">https://www.pulpwiki.net</a></p>
+            </div>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>
-<!-- 
-
-
-
--->
