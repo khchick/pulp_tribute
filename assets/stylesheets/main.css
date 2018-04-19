@@ -1,0 +1,69 @@
+/*
+=======
+General
+=======
+*/
+
+html,
+section div {
+    background-color: black;
+}
+
+/*
+==========
+Top banner
+==========
+*/
+
+.jumbotron,
+.jumbotron-fluid {
+    background: url(https://assets.mubi.com/images/film/126582/image-w1280.jpg?1512517279) no-repeat top center;
+    background-size: 100% auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.intro {
+    margin: 0 auto;
+    padding: 0 40px;
+    text-align: center;
+}
+
+@media (max-width: 824px) {
+#intro-text {
+    display: none;
+}
+
+div h1 {
+    font-size: 30px;
+}
+}
+
+@media (max-width: 362px) {
+    div h1 {
+        font-size: 22px;
+    }
+    }
+
+/*
+=========
+Biography
+=========
+*/
+
+.biography {
+    margin: auto;
+    padding: 20px 40px;
+    background-color: black;
+    color: #bebebe;
+}
+
+.biography h2 {
+    color: #fff;
+}
+
+
